@@ -5,12 +5,7 @@ require_relative './exercise_3'
 require_relative './exercise_4'
 require_relative './exercise_5'
 require_relative './exercise_6'
+require_relative './exercise_7'
 
-puts "Exercise 7"
+puts "Exercise 8"
 puts "----------"
-
-puts "Enter a store name"
-storename = gets.chomp
-new_store = Store.create(name: storename)
-new_store.valid?
-puts new_store.errors.details
